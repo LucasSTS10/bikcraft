@@ -13,3 +13,13 @@
 .link::after{content: ""; display: block; width: 100%; height: 4px; background-color: currentColor;}
 
 .link:hover{color: var(--cor-0); }
+
+.titulo-bg{background-color: var(--cor-11);padding: 60px;}
+
+.titulo{margin-bottom: 4px;}
+
+@media(max-width: 800px){
+    .titulo-bg{padding: 40px;}
+
+    .titulo p{font-size: 1rem; text-transform: lowercase; font-weight: 400;}
+}
