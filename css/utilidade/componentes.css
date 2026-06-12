@@ -14,9 +14,9 @@
 
 .link:hover{color: var(--cor-0); }
 
-.titulo-bg{background-color: var(--cor-11);padding: 60px;}
+.titulo-bg{background-color: var(--cor-11);padding: 60px 0px;}
 
-.titulo{margin-bottom: 4px;}
+.titulo p{margin-bottom: 4px;}
 
 @media(max-width: 800px){
     .titulo-bg{padding: 40px;}
