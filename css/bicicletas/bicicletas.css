@@ -1,0 +1,9 @@
+.bicicletas-bg:nth-child(3){
+    background: var(--cor-11);
+}
+
+.bicicletas{display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 60px 0 ;}
+
+.bicicleta-imagem{position: relative;}
+
+.bicicleta-imagem span{background: var(--cor-12); padding: 8px 16px 8px 8px; display: inline-block; position: absolute; top: 20px; right: 0px;}
